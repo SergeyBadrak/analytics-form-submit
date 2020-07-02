@@ -4,7 +4,7 @@ Send event to Google Analytics from Wordpress CF7 form submit
 
 <h2>How to use</h2>
 
-<p>1. Add Google Analitics Gtag to HEAD of your site</p>
+<p>1. Add Google Analitics Gtag to HEAD of your site. For Example:</p>
 
 ```JS
 	<!-- Global site tag (gtag.js) - Google Analytics -->
