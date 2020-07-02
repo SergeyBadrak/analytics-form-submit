@@ -29,6 +29,6 @@ Send event to Google Analytics from Wordpress CF7 form submit
 <p>3. In script file set variables as your set fields in Analitics:</p>
 
 <p>
-<b> 'event_category': 'contactform' </br> </b>
-       'event_action': 'Submit' </br>
+<b> 'event_category': 'contactform' </b> </br>
+<b>       'event_action': 'Submit' </b> </br>
 </p>
