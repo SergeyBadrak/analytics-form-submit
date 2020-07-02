@@ -17,7 +17,7 @@ Send event to Google Analytics from Wordpress CF7 form submit
 	  gtag('config', 'UA-XXXXXXX-X');
 	</script>
 ``` 
-<p>3. Create Conversion in Google Analitics </p>
+<p>3. Create Conversion in Google Analytics </p>
 <img src=images/GA_CF7.png raw=true />
 <p>2. Add JS file to send event</p>
 
@@ -25,4 +25,10 @@ Send event to Google Analytics from Wordpress CF7 form submit
 <!--  Google Analytics Form Submit Start  -->
     <script src="js/analytics-form-submit.js"></script>
 <!--  Google Analytics Form Submit  End  -->
+``` 
+<p>3. Set variables as your set fields in Analitics:</p>
+```JS
+gtag('event', 'send', {
+       'event_category': 'contactform',
+       'event_action': 'Submit'});
 ``` 
