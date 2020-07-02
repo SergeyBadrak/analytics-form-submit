@@ -19,7 +19,7 @@ Send event to Google Analytics from Wordpress CF7 form submit
 ``` 
 <p>3. Create Conversion in Google Analytics </p>
 <img src=images/GA_CF7.png raw=true />
-<p>2. Add JS file to send event</p>
+<p>2. Add <b>analytics-form-submit.js</b>b> to send event</p>
 
 ```JS
 <!--  Google Analytics Form Submit Start  -->
