@@ -17,7 +17,7 @@ Send event to Google Analytics from Wordpress CF7 form submit
 	  gtag('config', 'UA-XXXXXXX-X');
 	</script>
 ``` 
-
+<p>3. Create Conversion in Google Analitics </p>
 <p>2. Add JS file to send event</p>
 
 ```JS
